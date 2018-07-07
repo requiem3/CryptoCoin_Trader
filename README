@@ -1,2 +1,12 @@
 3rd party API - https://python-binance.readthedocs.io/en/latest/
 binance API for ref - https://support.binance.com/hc/en-us/articles/115000840592-Binance-API-Beta
+telegram client API - https://github.com/python-telegram-bot/python-telegram-bot
+
+-----------------------------------------------------------------------------------------
+I spent too much time figuring out what chat app to use but telegram is the best. I got commands working though
+that I can send from my phone to the bot. Lines 27-43 are what I believe is the functionality we should have for the bot.
+If you can think of anything you would like to be ale to control just add a new commented out function name beneath mine
+and a comment if the name isnt obvious.
+
+Im gonna turn the telegram bot into a class the next time im free and it will instantiate your binanceReader and be
+the main controller.
